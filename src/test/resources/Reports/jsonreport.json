@@ -1,0 +1,109 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-07T05:49:45.175Z",
+        "before": [
+          {
+            "result": {
+              "duration": 782932,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.beforescenario(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User Test SignUp",
+        "description": "",
+        "id": "user-register-function-test;user-test-signup",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19736955216,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user launch chrome browser",
+            "match": {
+              "location": "StepDefinitions.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12386522812,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter url",
+            "match": {
+              "location": "StepDefinitions.user_enter_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5825237131,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user select the product",
+            "match": {
+              "location": "StepDefinitions.user_select_the_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104533,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click addtocart",
+            "match": {
+              "location": "StepDefinitions.user_click_addtocart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56320,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click buynow",
+            "match": {
+              "location": "StepDefinitions.user_click_buynow()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register"
+          }
+        ]
+      }
+    ],
+    "name": "User Register Function Test",
+    "description": "",
+    "id": "user-register-function-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature_Folder/UserRegister.feature",
+    "tags": [
+      {
+        "name": "@register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
